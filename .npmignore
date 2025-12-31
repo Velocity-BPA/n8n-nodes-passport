@@ -1,0 +1,41 @@
+# Source files (dist is published)
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development
+.git/
+.github/
+coverage/
+.nyc_output/
+*.log
+.env*
+
+# Documentation source
+docs/
+*.md
+!README.md
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
+__mocks__/
